@@ -1,0 +1,44 @@
+/* Default background color */
+body {
+    background-color: lightblue;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Medium screen (tablets) */
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+
+/* Large screen (desktops) */
+@media screen and (min-width: 1025px) {
+    body {
+        background-color: lightcoral;
+    }
+}
+
+/* Content styles */
+.content {
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.2em;
+}
